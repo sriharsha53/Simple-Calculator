@@ -1,0 +1,39 @@
+input[type=number]
+{
+   outline: 0;
+    overflow: hidden;
+    height: 30px;
+    background: #21262c;
+    color: #93989d;
+    border: #2c343c;
+    padding: 5px 3px 5px 10px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 4px;
+
+}
+
+input[type=submit]
+{
+border-radius: 5px;
+font-family: Arial;
+text-transform:uppercase;
+color:black;
+box-shadow: 3px 3px 0 #2c343c offset;
+padding:5px;
+
+}
+select  {
+    outline: 0;
+    overflow: hidden;
+    height: 30px;
+    background: #2c343c;
+    color: #747a80;
+    border: #2c343c;
+    padding: 5px 3px 5px 10px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 10px;
+}
+
+select option {border: 1px solid #000; background: #010;}
